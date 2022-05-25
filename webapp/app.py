@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def two_hundred():
-    return "200! All good, testing automation"
+    return "200! All good,cheking testing automation last changes"
 
 @app.route("/error")
 def error():
